@@ -27,3 +27,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 ```
 
 This should pass as proper RDF in validators like `riot`.
+
+In case the original value should still be part of an observation one can model it as a [qb:AttributeProperty](https://www.w3.org/TR/vocab-data-cube/#ref_qb_AttributeProperty). All `qb:AttributeProperty` are optional in an observation.
